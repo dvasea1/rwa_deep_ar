@@ -22,7 +22,44 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180a733a-0230-40fe-8aca-b836859f8428" name="Default Changelist" comment="minor bugs" />
+    <list default="true" id="180a733a-0230-40fe-8aca-b836859f8428" name="Default Changelist" comment="minor bugs">
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/devil_neon_horns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/assets/glasses" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/aviators" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/beard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/bigmouth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/bleachbypass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/blizzard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/dalmatian" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/drawingmanga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/fatify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/filmcolorperfection" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/fire" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/flowers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/fxdrunk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/grumpycat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/heart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/kanye" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/koala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/lion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/mudmask" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/obama" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/rain" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/realvhs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/sepia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/slash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/sleepingmask" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/smallface" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/teddycigar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/tripleface" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/tv80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/assets/twistedface" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/camera_deep_ar/CameraDeepArView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/camera_deep_ar/CameraDeepArView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rwa_deep_ar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rwa_deep_ar.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,13 +70,16 @@
   </component>
   <component name="ProjectId" id="1uIceUi9jN3FUquf1srr1CFMTLy" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/android/src/main/assets" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,6 +87,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/src/main/assets" />
       <recent name="D:\Users\visha\AndroidStudioProjects\Hipster project\library\rwa_deep_ar\android" />
       <recent name="D:\Users\visha\AndroidStudioProjects\Hipster project\library\rwa_deep_ar\android\src\main" />
     </key>
@@ -108,37 +149,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="added effects and some fix" />
     <MESSAGE value="minor bugs" />
     <option name="LAST_COMMIT_MESSAGE" value="minor bugs" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="343" y="0" key="CommitChangelistDialog2" timestamp="1625228935670">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="343" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1625228935670" />
-    <state x="150" y="64" width="1228" height="688" key="DiffContextDialog" timestamp="1625229732452">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="150" y="64" width="1228" height="688" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1625229732452" />
-    <state x="9" y="170" key="FileChooserDialogImpl" timestamp="1625229497849">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="9" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1625229497849" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1625124130083">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1625124130083" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1625228939537">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1625228939537" />
-    <state x="342" y="95" key="new project wizard" timestamp="1624385005118">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="342" y="95" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1624385005118" />
   </component>
 </project>

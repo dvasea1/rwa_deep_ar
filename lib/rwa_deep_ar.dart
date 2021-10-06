@@ -105,7 +105,6 @@ class CameraDeepAr extends StatefulWidget {
 }
 
 class _CameraDeepArState extends State<CameraDeepAr> {
-  CameraDeepArController? _controller;
   bool hasPermission = false;
   List<Effects> get supportedEffects => widget.supportedEffects;
   List<Filters> get supportedFilters => widget.supportedFilters;
@@ -127,8 +126,8 @@ class _CameraDeepArState extends State<CameraDeepAr> {
   Widget build(BuildContext context) {
 
     final Map<String, Object> args = {
-      "androidLicenceKey": widget.androidLicenceKey ?? "",
-      "iosLicenceKey": widget.iosLicenceKey ?? "",
+      "androidLicenceKey": widget.androidLicenceKey,
+      "iosLicenceKey": widget.iosLicenceKey,
       "recordingMode": RecordingMode.values.indexOf(widget.recordingMode),
       "direction": CameraDirection.values.indexOf(widget.cameraDirection),
       "cameraMode": CameraMode.values.indexOf(widget.cameraMode)
@@ -153,11 +152,8 @@ class _CameraDeepArState extends State<CameraDeepAr> {
       id,
       this,
     );
-    if (widget.cameraDeepArCallback == null) {
-      return;
-    }
+
     widget.cameraDeepArCallback(controller);
-    _controller = controller;
   }
 
   void onImageCaptured(String path) {
@@ -185,7 +181,7 @@ class CameraDeepArController {
   CameraDeepArController._(
     this.channel,
     this._cameraDeepArState,
-  ) : assert(channel != null) {
+  ) {
     channel.setMethodCallHandler(_handleMethodCall);
   }
 
@@ -193,7 +189,6 @@ class CameraDeepArController {
     int id,
     _CameraDeepArState _cameraDeepArState,
   ) async {
-    assert(id != null);
     final MethodChannel channel =
         MethodChannel('plugins.flutter.io/deep_ar_camera/$id');
     String resp = await channel.invokeMethod('isCameraReady');
@@ -284,15 +279,15 @@ class CameraDeepArController {
     });
   }
 
-  Future changeMask(int p) async {
-    int sendNative = p;
+  Future changeMask(String mask) async {
+ /*   int sendNative = p;
     if (_cameraDeepArState.supportedEffects.isNotEmpty) {
       Masks e = _cameraDeepArState.supportedMasks[p];
       sendNative = Masks.values.indexOf(e);
     }
-    if (p > Masks.values.length - 1) p = 0;
+    if (p > Masks.values.length - 1) p = 0;*/
     return channel.invokeMethod('changeMask', <String, dynamic>{
-      'mask': sendNative,
+      'mask': mask,
     });
   }
 

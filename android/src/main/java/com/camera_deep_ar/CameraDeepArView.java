@@ -220,7 +220,7 @@ public class CameraDeepArView implements PlatformView,
                 @SuppressWarnings({"unchecked"})
                 Map<String, Object> params = (Map<String, Object>) methodCall.arguments;
                 Object mask = params.get("mask");
-                currentMask=Integer.parseInt(String.valueOf(mask));
+                currentMask=String.valueOf(mask);
                 deepAR.switchEffect("mask", getFilterPath(masks.get(currentMask)));
             }
             result.success("Mask Changed");
@@ -273,39 +273,17 @@ public class CameraDeepArView implements PlatformView,
     private void initializeFilters() {
         masks = new ArrayList<>();
         masks.add("none");
-        masks.add("aviators");
-        masks.add("bigmouth");
-        masks.add("dalmatian");
-        masks.add("flowers");
-        masks.add("koala");
-        masks.add("lion");
-        masks.add("smallface");
-        masks.add("teddycigar");
-        masks.add("kanye");
-        masks.add("tripleface");
-        masks.add("sleepingmask");
-        masks.add("fatify");
-        masks.add("obama");
-        masks.add("mudmask");
-        masks.add("pug");
-        masks.add("slash");
-        masks.add("twistedface");
-        masks.add("grumpycat");
+        masks.add("glasses");
+        masks.add("devil_neon_horns");
+
 
         effects = new ArrayList<>();
         effects.add("none");
-        effects.add("fire");
-        effects.add("rain");
-        effects.add("heart");
-        effects.add("blizzard");
 
         filters = new ArrayList<>();
         filters.add("none");
-        filters.add("filmcolorperfection");
-        filters.add("tv80");
-        filters.add("drawingmanga");
-        filters.add("sepia");
-        filters.add("bleachbypass");
+
+        currentMask = masks.get(0);
     }
 
     private int getScreenOrientation() {
@@ -437,11 +415,38 @@ public class CameraDeepArView implements PlatformView,
 
 
 
-    private String getFilterPath(String filterName) {
+
+    @RequiresApi(api = Build.VERSION_CODES.N)
+    private String getFilterPath(String filterName)  {
+
         if (filterName.equals("none")) {
             return null;
         }
-        return "file:///android_asset/" + filterName;
+
+        try {
+            if ( exists(activity.getAssets(),"",filterName))
+                return "file:///android_asset/" + filterName;
+            else {
+                String path = activity.getDataDir().getAbsolutePath() + "/app_flutter/"
+                        + filterName;
+                Log.d("LocalPath",path);
+                return path;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        String path = activity.getDataDir().getAbsolutePath() + "/app_flutter/"
+                + filterName;
+        Log.d("LocalPath",path);
+        return path;
+    }
+    public  boolean exists(AssetManager assetManager,
+                           String directory, String fileName) throws IOException {
+        final String[] assets = assetManager.list(directory);
+        for (String asset : assets)
+            if (asset.equals(fileName))
+                return true;
+        return false;
     }
 
 
