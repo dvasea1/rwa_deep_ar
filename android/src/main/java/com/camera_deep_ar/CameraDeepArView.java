@@ -24,6 +24,9 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.widget.Toast;
+import android.content.res.AssetManager;
+import android.net.Uri;
+import java.io.IOException;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
@@ -81,7 +84,7 @@ public class CameraDeepArView implements PlatformView,
     private int cameraDevice = defaultCameraDevice;
     private DeepAR deepAR;
 
-    private int currentMask=0;
+    private String currentMask;
     private int currentEffect=0;
     private int currentFilter=0;
 

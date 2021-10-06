@@ -53,25 +53,12 @@ class CameraDeepAr extends StatefulWidget {
       this.cameraMode = CameraMode.masks,
       this.cameraDirection = CameraDirection.front,
       this.recordingMode = RecordingMode.video,
-      this.supportedFilters = const [
-        Filters.sepia,
-        Filters.bleachbypass,
-      ],
-      this.supportedMasks = const [
-        Masks.none,
-        Masks.aviators,
-        Masks.bigmouth,
-        Masks.dalmatian,
-        Masks.look2,
-        Masks.flowers,
-        Masks.grumpycat,
-        Masks.lion,
-      ],
-      this.supportedEffects = const [
-        Effects.none,
-        Effects.fire,
-        Effects.heart,
-      ]})
+        this.supportedFilters = const [
+        ],
+        this.supportedMasks = Masks.values,
+        this.supportedEffects = const [
+          Effects.none,
+        ]})
       : super(key: key);
   @override
   _CameraDeepArState createState() => _CameraDeepArState();
