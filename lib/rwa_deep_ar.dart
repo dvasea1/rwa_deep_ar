@@ -17,43 +17,16 @@ enum CameraDirection { back, front }
 
 enum Masks {
   none,
-  aviators,
-  bigmouth,
-  dalmatian,
-  bcgSeg,
-  look2,
-  fatify,
-  flowers,
-  grumpycat,
-  koala,
-  lion,
-  mudMask,
-  obama,
-  pug,
-  slash,
-  sleepingmask,
-  smallface,
-  teddycigar,
-  tripleface,
-  twistedFace,
+  glasses,
+  devil_neon_horns,
 }
 
 enum Effects {
   none,
-  fire,
-  heart,
-  blizzard,
-  rain,
 }
 
 enum Filters {
   none,
-  tv80,
-  drawingmanga,
-  sepia,
-  bleachbypass,
-  realvhs,
-  filmcolorperfection,
 }
 
 class CameraDeepAr extends StatefulWidget {

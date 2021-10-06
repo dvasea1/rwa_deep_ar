@@ -22,44 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180a733a-0230-40fe-8aca-b836859f8428" name="Default Changelist" comment="minor bugs">
-      <change afterPath="$PROJECT_DIR$/android/src/main/assets/devil_neon_horns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/src/main/assets/glasses" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/aviators" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/beard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/bigmouth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/bleachbypass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/blizzard" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/dalmatian" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/drawingmanga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/fatify" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/filmcolorperfection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/fire" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/flowers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/fxdrunk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/grumpycat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/heart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/kanye" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/koala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/lion" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/mudmask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/obama" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/rain" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/realvhs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/sepia" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/slash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/sleepingmask" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/smallface" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/teddycigar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/tripleface" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/tv80" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/assets/twistedface" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/src/main/java/com/camera_deep_ar/CameraDeepArView.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/java/com/camera_deep_ar/CameraDeepArView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rwa_deep_ar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rwa_deep_ar.dart" afterDir="false" />
-    </list>
+    <list default="true" id="180a733a-0230-40fe-8aca-b836859f8428" name="Default Changelist" comment="minor bugs" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
